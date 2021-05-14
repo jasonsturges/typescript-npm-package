@@ -122,7 +122,7 @@ export const sayHi = () => {
 ...your test app would implement an import using your package name, such as:
 
 ```ts
-import { sayHi } from "typesript-npm-package";
+import { sayHi } from "typescript-npm-package";
 
 sayHi();
 ```
