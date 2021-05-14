@@ -58,7 +58,7 @@ While test driven development (TDD) would be a good approach to develop your lib
 npm link
 ```
 
-**Create a test app projec**, by doing the following:
+**Create a test app project**, by doing the following:
 
 To use your npm package library locally for development, create a new project in a separate folder:
 
