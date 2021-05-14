@@ -1,11 +1,18 @@
 {
   "name": "typescript-npm-package",
   "version": "1.0.0",
-  "description": "",
+  "description": "TypeScript library npm package boilerplate",
+  "author": "Jason Sturges <jason@jsonsturges.com> (https://jasonsturges.com)",
+  "homepage": "https://github.com/jasonsturges/typescript-npm-package",
+  "license": "ISC",
+  "keywords": [
+    "typescript",
+    "npm",
+    "package",
+    "boilerplate"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Jason Sturges",
-  "license": "ISC"
+  }
 }
