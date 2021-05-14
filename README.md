@@ -58,6 +58,12 @@ While test driven development (TDD) would be a good approach to develop your lib
 npm link
 ```
 
+Start Rollup in watch mode:
+
+```
+npm run dev
+```
+
 **Create a test app project**, by doing the following:
 
 To use your npm package library locally for development, create a new project in a separate folder:
