@@ -76,7 +76,7 @@ npm init
 Take the defaults from `npm init`; then, add TypeScript:
 
 ```
-npm install typescript --include="dev"
+npm install typescript --save-dev
 ```
 
 In the package.json of your test app, add the following two things:
