@@ -117,7 +117,7 @@ Add a "*tsconfig.json*" file to your test app that includes a `baseUrl` and refe
 
 Now, run your app via `npm start`.
 
-As an example, if your library's "*index.js*" file contained:
+As an example, if your library's "*index.ts*" file contained:
 
 ```ts
 export const sayHi = () => {
