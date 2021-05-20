@@ -8,7 +8,7 @@ export default [
   {
     input: "src/index.ts",
     output: {
-      name: "myLib",
+      name: "typescriptNpmPackage",
       file: pkg.browser,
       format: "umd",
     },
