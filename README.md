@@ -132,3 +132,19 @@ import { sayHi } from "typescript-npm-package";
 
 sayHi();
 ```
+
+## Development Complete
+
+Once development completes, `unlink` both your library and test app projects.
+
+**From your test app project**, unlink the library using `npm unlink <name>` (or `yarn unlink <name>`) command:
+
+```
+npm unlink typescript-npm-package
+```
+
+**From your library project**, issue the `npm unlink` (or `yarn unlink`) command:
+
+```
+npm unlink
+```
