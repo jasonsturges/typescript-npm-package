@@ -52,7 +52,7 @@ The following tasks are available for `npm run`:
 
 While test driven development (TDD) would be a good approach to develop your library, also consider creating an app for prototyping and local testing of your library.
 
-**From your library project**, issue the `npm link` command:
+**From your library project**, issue the `npm link` (or `yarn link`) command:
 
 ```
 npm link
@@ -90,7 +90,7 @@ In the package.json of your test app, add the following two things:
 },
 ```
 
-Link to your library using the `npm link <name>` command - be sure the `<name>` matches your library's package.json name.  For example:
+Link to your library using the `npm link <name>` (or `yarn link <name>`) command - be sure the `<name>` matches your library's package.json name.  For example:
 
 ```
 npm link typescript-npm-package
