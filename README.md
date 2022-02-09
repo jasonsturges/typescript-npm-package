@@ -133,7 +133,8 @@ import { sayHi } from "typescript-npm-package";
 sayHi();
 ```
 
-## Development Complete
+
+## Development Cleanup
 
 Once development completes, `unlink` both your library and test app projects.
 
@@ -147,4 +148,25 @@ npm unlink typescript-npm-package
 
 ```
 npm unlink
+```
+
+
+## Release Publishing
+
+Once ready to submit your package to the NPM Registry, execute the following tasks via `npm` (or `yarn`):
+
+- `npm run clean` &mdash; Assure a clean build
+- `npm run build` &mdash; Build the package
+- `npm run build:types` &mdash; Build API Extractor d.ts declaration
+
+Assure the proper npm login:
+
+```
+npm login
+```
+
+Submit your package to the registry:
+
+```
+npm publish --access public
 ```
