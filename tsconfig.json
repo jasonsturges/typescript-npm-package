@@ -5,10 +5,10 @@
       "dom.iterable",
       "esnext"
     ],
+    "esModuleInterop": true,
     "target": "es6",
     "module": "esnext",
     "moduleResolution": "node",
-    "strict": true,
-    "esModuleInterop": true
+    "strict": true
   }
 }
