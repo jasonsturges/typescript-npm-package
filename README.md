@@ -153,6 +153,8 @@ npm unlink
 
 ## Release Publishing
 
+Update your `package.json` to next version number, and remember to tag a release.
+
 Once ready to submit your package to the NPM Registry, execute the following tasks via `npm` (or `yarn`):
 
 - `npm run clean` &mdash; Assure a clean build
