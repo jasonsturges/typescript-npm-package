@@ -54,7 +54,7 @@ While test driven development (TDD) would be a good approach to develop your lib
 
 To test within the library, consider using [Storybook](https://storybook.js.org/).  This approach runs a `storybook` script to load local source files for development.
 
-Otherewise, follow these steps to test the package from another project:
+Otherwise, follow these steps to test the package from another project:
 
 **From your library project**, issue the `npm link` (or `yarn link`) command:
 
