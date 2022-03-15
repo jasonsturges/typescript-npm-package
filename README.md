@@ -52,6 +52,10 @@ The following tasks are available for `npm run`:
 
 While test driven development (TDD) would be a good approach to develop your library, also consider creating an app for prototyping and local testing of your library.
 
+To test within the library, consider using [Storybook](https://storybook.js.org/).  This approach runs a `storybook` script to load local source files for development.
+
+Otherewise, follow these steps to test the package from another project:
+
 **From your library project**, issue the `npm link` (or `yarn link`) command:
 
 ```
