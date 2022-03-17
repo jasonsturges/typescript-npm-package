@@ -15,9 +15,10 @@
     "package",
     "boilerplate"
   ],
-  "main": "dist/typescript-npm-package.cjs.js",
-  "module": "dist/typescript-npm-package.esm.js",
-  "browser": "dist/typescript-npm-package.umd.js",
+  "main": "dist/cjs/typescript-npm-package.js",
+  "module": "dist/esm/typescript-npm-package.js",
+  "browser": "dist/browser/typescript-npm-package.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
