@@ -6,9 +6,9 @@
       "esnext"
     ],
     "esModuleInterop": true,
-    "target": "es6",
     "module": "esnext",
     "moduleResolution": "node",
-    "strict": true
+    "strict": true,
+    "target": "es6"
   }
 }
